@@ -1,0 +1,253 @@
+ /* Media Query for Tablets Ipads portrait mode */
+ @media (min-width: 768px) and (max-width: 1024px) {
+    .lists {
+       flex-direction: column;
+       /* position: absolute; */
+       top: 9rem;
+       padding: 50px 0px;
+       width: 30%;
+       height: 50vh;
+       right: 0;
+       background-color: #4b2f4d;
+       border-top-left-radius: 18px;
+       border-bottom-left-radius: 18px;
+       position: fixed;
+       display: none;
+       text-align: center;
+       z-index: 999;
+    }
+
+    .active {
+       display: block;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .close-open .show-icon {
+       display: block;
+    }
+
+    .box-heading {
+       font-size: 3.2rem;
+    }
+
+    .box-para {
+       margin-top: 17px;
+       width: 90%;
+    }
+
+    .box-para {
+       font-size: 16px;
+       letter-spacing: 0.7px;
+    }
+
+    .box2-phone {
+       margin-left: 98px;
+       margin-top: 144px;
+       width: 345px;
+       height: 295px;
+    }
+
+    .box2-heading {
+       width: 86%;
+       line-height: 23px;
+    }
+
+    .box2-phone-background {
+       position: absolute;
+       margin-top: 116px;
+       margin-left: 42px;
+       width: 364px;
+    }
+
+    .box-image {
+       height: 376px;
+       width: 437px;
+    }
+
+    .box2-burger {
+       width: 201px;
+    }
+
+    .blog-heading {
+       font-size: 2.9rem;
+    }
+
+    .product-box:hover .product-title,
+    .product-box:hover .price {
+       color: #0000 !important;
+    }
+
+    .brand-list {
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+       gap: 2rem;
+    }
+
+    .brand-img {
+       width: 101px;
+    }
+
+    .detail {
+       font-weight: 600;
+    }
+
+    .brand-nams {
+       display: flex;
+       width: 100%;
+       justify-content: space-around;
+    }
+
+    .container,
+    .container-md,
+    .container-sm {
+       max-width: 829px;
+    }
+
+    .product-box {
+       background: #4b2f4d;
+    }
+
+    .product-title {
+       color: #eee;
+    }
+
+    .footer-list {
+       gap: 20px;
+    }
+
+    .footer-link {
+       font-size: 18px;
+    }
+ }
+
+ /* Media Query for low resolution  Tablets, Ipads */
+ @media (min-width: 481px) and (max-width: 767px) {
+    .lists {
+       flex-direction: column;
+       /* position: absolute; */
+       top: 9rem;
+       padding: 50px 0px;
+       width: 30%;
+       height: 50vh;
+       right: 0;
+       background-color: #4b2f4d;
+       border-top-left-radius: 18px;
+       border-bottom-left-radius: 18px;
+       position: fixed;
+       display: none;
+       text-align: center;
+       z-index: 999;
+    }
+
+    .active {
+       display: block;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .close-open .show-icon {
+       display: block;
+       top: 67px;
+       right: 14px;
+       padding: 6px 9px;
+    }
+
+    .section-title {
+       font-size: 2rem;
+    }
+
+    .product-box {
+       background: #4b2f4d;
+    }
+
+    .product-title {
+       color: #eee;
+    }
+
+    .footer {
+       height: 57vh;
+    }
+
+    .footer-box {
+       margin-top: 52px;
+    }
+
+    .footer-link {
+       font-size: 13px;
+    }
+
+    .footer-logo {
+       width: 93px;
+       height: 36px;
+    }
+
+    .footer-detail {
+       font-size: 13px;
+    }
+
+    .product-box:hover .product-title,
+    .product-box:hover .price {
+       color: #eee !important;
+    }
+ }
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    .lists {
+       flex-direction: column;
+       /* position: absolute; */
+       top: 9rem;
+       padding: 50px 0px;
+       width: 30%;
+       height: 50vh;
+       right: 0;
+       background-color: #4b2f4d;
+       border-top-left-radius: 18px;
+       border-bottom-left-radius: 18px;
+       position: fixed;
+       display: none;
+       text-align: center;
+       z-index: 999;
+    }
+
+    .product-box:hover .product-title,
+    .product-box:hover .price {
+       color: #eee !important;
+    }
+
+    .active {
+       display: block;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .close-open .show-icon {
+       display: block;
+    }
+
+    .close-open .show-icon {
+       top: 20px;
+       right: 15px;
+       position: absolute;
+       right: 20px;
+       top: 77px;
+    }
+
+    .footer-link {
+       font-size: 13px;
+    }
+
+    .detail {
+       margin-top: 1rem;
+       width: 95%;
+       font-weight: 600;
+    }
+
+    .footer {
+       height: 40vh;
+    }
+ }

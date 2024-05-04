@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name":" Burger One",
+        "price": 200,
+        "image": "../Food_Assets/Food_Assets/assets/menu/burger-16.jpg"
+    },
+    {
+        "id": 2,
+        "name":" Burger Two",
+        "price": 250,
+        "image": "../Food_Assets/Food_Assets/assets/menu/burger-11.jpg"
+    },
+    {
+        "id": 3,
+        "name":" Burger 3",
+        "price": 290,
+        "image": "../Food_Assets/Food_Assets/assets/menu/burger-12.jpg"
+    },
+    {
+        "id": 4,
+        "name":" Burger 4",
+        "price": 200,
+        "image": "../Food_Assets/Food_Assets/assets/menu/burger-13.jpg"
+    },
+    {
+        "id": 5,
+        "name":" Burger 5",
+        "price": 300,
+        "image": "../Food_Assets/Food_Assets/assets/menu/burger-14.jpg"
+    },
+    {
+        "id": 6,
+        "name":" LD06 LOUNGE CHAIR",
+        "price": 200,
+        "image": "../Food_Assets/Food_Assets/assets/menu/burger-15.jpg"
+    },
+    {
+        "id": 7,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "../Food_Assets/Food_Assets/assets/menu/burger-16.jpg"
+    },
+    {
+        "id": 9,
+        "name":" LD08 LOUNGE CHAIR",
+        "price": 200,
+        "image": "../Food_Assets/Food_Assets/assets/menu/burger-17.jpg"
+    },
+    {
+        "id": 10,
+        "name":" LD08 LOUNGE CHAIR",
+        "price": 200,
+        "image": "../Food_Assets/Food_Assets/assets/menu/burger-18.jpg"
+    },
+    {
+        "id": 8,
+        "name":" LD08 LOUNGE CHAIR",
+        "price": 200,
+        "image": "../Food_Assets/Food_Assets/assets/menu/burger-19.jpg"
+    }
+
+]
